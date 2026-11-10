@@ -1,0 +1,22 @@
+task,condition,final best (mean ± sd),best seed,improvements / run,evals to target (median),reached target,runtime s,evals on busiest worker,memory reads
+bin_packing,A fixed evolution,0.9426 ± 0.0031,0.9463,8.3,769,6/10,39.49,1200,0
+bin_packing,B single agent,0.9422 ± 0.0038,0.9501,7.3,1200,4/10,39.65,1200,4726
+bin_packing,Proposed multi-agent,0.9419 ± 0.0059,0.9501,8.4,1200,4/10,39.68,351,4747
+bin_packing,no shared memory,0.9420 ± 0.0036,0.9463,8.6,1200,3/10,39.63,350,4736
+bin_packing,no reflection,0.9428 ± 0.0066,0.9501,8.7,834,5/10,39.44,351,2387
+bin_packing,no consolidation,0.9416 ± 0.0044,0.9467,9.0,1200,4/10,39.33,351,3569
+bin_packing,no redirection,0.9409 ± 0.0087,0.9501,7.9,625,6/10,33.37,350,4784
+circle_packing,A fixed evolution,2.1731 ± 0.0293,2.2079,39.1,1170,5/10,1.81,1200,0
+circle_packing,B single agent,2.2307 ± 0.0580,2.3375,92.8,959,7/10,1.91,1200,4883
+circle_packing,Proposed multi-agent,2.2132 ± 0.0456,2.2755,52.3,975,9/10,1.91,334,4820
+circle_packing,no shared memory,2.0958 ± 0.0333,2.1560,43.5,1200,0/10,2.01,334,4777
+circle_packing,no reflection,2.2106 ± 0.0585,2.2814,49.9,925,7/10,1.95,334,2386
+circle_packing,no consolidation,2.2368 ± 0.0278,2.2841,50.5,831,10/10,1.98,334,3579
+circle_packing,no redirection,2.2180 ± 0.0460,2.2931,52.7,971,9/10,1.92,334,4814
+system_tuning,A fixed evolution,5.1885 ± 0.2195,5.3248,29.4,953,7/10,0.17,1200,0
+system_tuning,B single agent,5.3200 ± 0.0152,5.3248,38.8,629,9/10,0.31,1200,4854
+system_tuning,Proposed multi-agent,5.2680 ± 0.1451,5.3248,32.1,675,8/10,0.33,352,4832
+system_tuning,no shared memory,5.1350 ± 0.2815,5.3248,27.4,1039,6/10,0.33,352,4835
+system_tuning,no reflection,5.2790 ± 0.1447,5.3248,28.2,598,9/10,0.31,352,2471
+system_tuning,no consolidation,5.3211 ± 0.0116,5.3248,32.1,852,9/10,0.36,352,3660
+system_tuning,no redirection,5.2342 ± 0.1909,5.3248,31.6,671,8/10,0.30,352,4870
